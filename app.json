@@ -9,6 +9,8 @@
     "BUILDPACK_URL": "https://github.com/b4oshany/heroku-button-plone"
   },
   "addons": [
-    "mailgun"
+     "heroku-postgresql:hobby-dev",
+    "autobus:trip",		
+     "mailgun"
   ]
 }
