@@ -1,7 +1,7 @@
 {
   "name": "Plone on Heroku",
   "description": "A simple Plone site hosted on Heroku. Login with admin:admin.",
-  "repository": "https://github.com/plone/heroku-button-plone",
+  "repository": "https://github.com/b4oshany/heroku-button-plone",
   "logo": "http://www.coactivate.org/projects/plone-marketing/plone-logo-guidelines/plone-vertical-logo.png",
   "keywords": ["plone", "python", "cms"],
   "website": "http://plone.org",
@@ -10,7 +10,7 @@
   },
   "addons": [
     "heroku-postgresql:hobby-dev",
-    "autobus:auto-month",
+    "autobus:trip",
     "mailgun"
   ]
 }
